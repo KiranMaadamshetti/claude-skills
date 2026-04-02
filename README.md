@@ -4,7 +4,7 @@
 
 [![Claude Compatible](https://img.shields.io/badge/Claude-Skills%20Compatible-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=)](https://claude.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-2%20Available-orange?style=for-the-badge)](#available-skills)
+[![Skills](https://img.shields.io/badge/Skills-3%20Available-orange?style=for-the-badge)](#available-skills)
 
 ---
 
@@ -22,6 +22,7 @@ Claude Skills are custom plugins you can install in [Claude.ai](https://claude.a
 |-------|-------------|----------|
 | [**Resume Analyser**](#-resume-analyser) | Scores, critiques, and completely rewrites your resume with a professional HTML report | [📥 Download](resume-analyser/resume-analyser.skill) |
 | [**Strategy Toolkit**](#-strategy-toolkit) | 10 proven strategic frameworks for business analysis, competitive positioning, and execution | [📥 Download](strategy-toolkit/strategy-toolkit.skill) |
+| [**Idea Tester**](#-idea-tester) | Test and validate business ideas with 44 experiments before spending money building | [📥 Download](idea-tester/idea-tester.skill) |
 
 ---
 
@@ -200,6 +201,65 @@ strategy-toolkit/
 
 ---
 
+## 🧪 Idea Tester
+
+**Test and validate business ideas with 44 proven experiments before spending time and money building.**
+
+### The Testing Process
+
+```
+SHAPE → HYPOTHESIZE → EXPERIMENT → LEARN → DECIDE
+```
+
+Upload your idea and Claude will walk you through the complete testing cycle — from extracting risky assumptions, to selecting the right experiments, to analysing evidence, to making the Persevere / Pivot / Kill decision.
+
+### Three Risk Types Tested
+
+| Risk Type | Question | Example Experiments |
+|-----------|----------|-------------------|
+| **Desirability** | Will customers want this? | Customer interviews, landing pages, presales, fake door tests |
+| **Viability** | Can we make money? | Buy a Feature, mock sales, pre-orders, unit economics testing |
+| **Feasibility** | Can we build and deliver it? | Expert interviews, technical spikes, partner interviews |
+
+### 44 Experiments in Two Phases
+
+**Discovery (28 experiments)** — Cheap, fast, do these FIRST: Customer Interviews, Surveys, Search Trend Analysis, Online Ads, Fake Door Tests, Email Campaigns, Paper Prototypes, Explainer Videos, Card Sorting, and more.
+
+**Validation (16 experiments)** — Stronger evidence, do AFTER discovery: Landing Pages, Presales, Crowdfunding, Concierge, Wizard of Oz, Single Feature MVP, Split Tests, Letters of Intent, Mock Sales, Pop-Up Stores, and more.
+
+### How to Use
+
+```
+I have a business idea — help me test it before I build anything.
+```
+
+```
+I want to launch [product/service] for [audience].
+What experiments should I run first and in what sequence?
+```
+
+```
+I ran customer interviews and got mixed signals.
+Help me analyse the evidence and decide next steps.
+```
+
+### Includes Experiment Sequences For
+
+B2B Software, B2C Products, B2C Services, B2B2C Marketplaces, Financial Services/Lending, and Physical Products — each with step-by-step experiment chains.
+
+### Files Included
+
+```
+idea-tester/
+├── SKILL.md                                # Core skill instructions
+└── references/
+    ├── testing-process.md                  # Methodology, Test Card, Learning Card, Assumptions Map
+    ├── experiment-library.md               # All 44 experiments with cost and evidence ratings
+    └── experiment-sequences.md             # Experiment chains by business type
+```
+
+---
+
 ## Building Your Own Skills
 
 Want to create your own Claude skill? Here's the basic structure:
@@ -250,14 +310,6 @@ Found a bug? Have an improvement? Contributions are welcome!
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 The strategic frameworks referenced in the Strategy Toolkit are the intellectual property of their respective authors (Michael Porter, Clayton Christensen, W. Chan Kim, Robert Kaplan, etc.). The skill files contain original instructional content for applying these frameworks, not reproductions of the source material.
-
----
-
-## Author
-
-**Kiran** — Founder, [Dhan Mitra Financial Services](https://github.com/your-username)
-
-Novelist (*The Kashi Jyoti*) | Fintech Builder | AI Tools Explorer
 
 ---
 
