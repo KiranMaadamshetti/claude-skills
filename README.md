@@ -39,8 +39,6 @@ Navigate to **Profile** → **Skills** → **Add Skill** → Upload the `.skill`
 ### Step 4: Start Using
 That's it! The skill activates automatically when you ask relevant questions. See each skill's documentation below for example prompts.
 
-> **Note:** Skills require a Claude Pro, Team, or Enterprise subscription.
-
 ---
 
 ## 📄 Resume Analyser
