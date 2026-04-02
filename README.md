@@ -39,6 +39,8 @@ Navigate to **Profile** → **Skills** → **Add Skill** → Upload the `.skill`
 ### Step 4: Start Using
 That's it! The skill activates automatically when you ask relevant questions. See each skill's documentation below for example prompts.
 
+> **Note:** Skills require a Claude Pro, Team, or Enterprise subscription.
+
 ---
 
 ## 📄 Resume Analyser
@@ -249,5 +251,14 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 The strategic frameworks referenced in the Strategy Toolkit are the intellectual property of their respective authors (Michael Porter, Clayton Christensen, W. Chan Kim, Robert Kaplan, etc.). The skill files contain original instructional content for applying these frameworks, not reproductions of the source material.
 
+---
 
+## Author
 
+**Kiran** — Founder, [Dhan Mitra Financial Services](https://github.com/your-username)
+
+Novelist (*The Kashi Jyoti*) | Fintech Builder | AI Tools Explorer
+
+---
+
+*Built with Claude. Powered by curiosity.*
